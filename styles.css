@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+body {
+  background-color: #f5f8ff;
+}
+header {
+  background-image: url(./Assets/Hero-bg.png);
+  height: 698px;
+  /* text-align: center; */
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 150px;
+  padding: 50px 0px;
+}
+nav h1 {
+  color: #4e47ff;
+  font-size: 34px;
+  font-weight: 800;
+}
+.btn {
+  background-color: #4e47ff;
+  color: white;
+  border-radius: 10px;
+  padding: 12px 36px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+#Hero-headings {
+  text-align: center;
+  width: 62.84%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#Hero-headings h1 {
+  font-size: 65px;
+  color: #252432;
+  margin-bottom: 37px;
+}
+#LivePreviewSection {
+  height: 328px;
+  width: 1140px;
+
+  margin: 116px 160px;
+  display: flex;
+  gap: 220px;
+}
+#LivePreviewSection img {
+  border-radius: 48px;
+  width: 403px;
+  height: 328px;
+}
+#Details * {
+  margin-bottom: 23px;
+}
+#Details p {
+  color: #9c9ca0;
+  font-size: 24px;
+}
+#Details h2 {
+  font-size: 42px;
+  font-weight: bold;
+}
+#ProductiveUser {
+  width: 1140px;
+  height: 306px;
+  margin: 0px 160px 0px 160px;
+  padding: 50px 80px;
+  background-color: #4e47ff20;
+  border-radius: 24px;
+}
+#Percentages {
+  display: flex;
+}
