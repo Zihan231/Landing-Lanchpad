@@ -16,7 +16,7 @@ body {
 }
 header {
   background-image: url(./Assets/Hero-bg.png);
-  padding-bottom: 200px ;
+  padding-bottom: 200px;
   /* text-align: center; */
 }
 main {
@@ -220,17 +220,28 @@ label {
   font-size: 18px;
   color: #000000;
 }
-input::placeholder, textarea::placeholder {
+input::placeholder,
+textarea::placeholder {
   color: #00000050;
   font-size: 20px;
   font-family: "Inter", sans-serif;
 }
-textarea{
+textarea {
   border-radius: 10px;
-  background-color: #FFFFFF;
-  border: solid 1px #D6DDED;
+  background-color: #ffffff;
+  border: solid 1px #d6dded;
   padding: 20px 32px;
   height: 135px;
   margin-bottom: 19px;
-
 }
+
+footer div h1 {
+  color: #4e47ff;
+  font-size: 100px;
+  font-weight: 900;
+}
+footer {
+text-align: center;  
+}
+
+
