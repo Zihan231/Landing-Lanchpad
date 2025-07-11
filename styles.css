@@ -12,7 +12,7 @@
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 body {
-  background-color: #f5f8ff;
+  background-color: #F5F8FF;
 }
 header {
   background-image: url(./Assets/Hero-bg.png);
@@ -175,9 +175,18 @@ nav h1 {
 #FocusSection{
   padding: 71px 150px;
   text-align: center;
+  background-color: #FFFFFF;
+  border-radius: 14px;
+
+}
+#FocusHeadings h2{
+  font-size: 50px;
+  font-weight: bold;
 }
 #FocusHeadings p{
   color: #00000050;
+  font-size: 16px;
+  
 }
 #FocusHeadings *{
   margin-bottom: 20px ;
