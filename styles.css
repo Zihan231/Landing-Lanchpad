@@ -12,7 +12,7 @@
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 body {
-  background-color: #F5F8FF;
+  background-color: #f5f8ff;
 }
 header {
   background-image: url(./Assets/Hero-bg.png);
@@ -153,69 +153,82 @@ nav h1 {
   display: flex;
   gap: 12px;
 }
-#ReviewHeadings p{
+#ReviewHeadings p {
   font-size: 16px;
-  color: #1E1E1E;
+  color: #1e1e1e;
   margin-bottom: 24px;
-
 }
-#ReviewHeadings h4{
+#ReviewHeadings h4 {
   margin-bottom: 8px;
-  color: #1E1E1E;
-  font-size: 24px;  
+  color: #1e1e1e;
+  font-size: 24px;
 }
-#Userinfo p{
-  color: #B3B3B3;
-
+#Userinfo p {
+  color: #b3b3b3;
 }
-#Userinfo h5{
+#Userinfo h5 {
   color: #757575;
   font-size: 16px;
 }
-#FocusSection{
+#FocusSection {
   padding: 71px 150px;
   text-align: center;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 14px;
-
+  margin-bottom: 92px;
 }
-#FocusHeadings h2{
+#FocusHeadings h2 {
   font-size: 50px;
   font-weight: bold;
 }
-#FocusHeadings p{
+#FocusHeadings p {
   color: #00000050;
   font-size: 16px;
-  
 }
-#FocusHeadings *{
-  margin-bottom: 20px ;
+#FocusHeadings * {
+  margin-bottom: 20px;
 }
-#FocusSection img{
+#FocusSection img {
   border-radius: 48px;
 }
 
-#contactSection h1{
+#contactSection h1 {
   font-size: 97px;
   font-weight: bold;
-  width: 46.315%;
+  width: 50%;
 }
-#contactSection{
-  background-color: #4e47ff;
+#contactSection {
   display: flex;
   justify-content: space-between;
   padding: 71px 0px;
-
 }
-form{
+form {
   display: flex;
   flex-direction: column;
   width: 43.59%;
 }
-input{
+input {
   border-radius: 10px;
   padding: 20px 32px;
-  border: solid 1px #D6DDED;
+  border: solid 1px #d6dded;
   margin-bottom: 19px;
+}
+label {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #000000;
+}
+input::placeholder, textarea::placeholder {
+  color: #00000050;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
+textarea{
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  border: solid 1px #D6DDED;
+  padding: 20px 32px;
+  height: 135px;
+
 
 }
